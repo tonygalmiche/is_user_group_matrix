@@ -11,7 +11,7 @@
     """,
     'author': 'InfoSaône',
     'website': 'https://www.infosaone.com',
-    'license': 'LGPL-3',
+    'license': 'AGPL-3',
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
