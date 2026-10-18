@@ -10,7 +10,7 @@ class IsUserGroupMatrix(models.Model):
 
     user_id = fields.Many2one('res.users', string='Utilisateur', readonly=True)
     group_id = fields.Many2one('res.groups', string='Groupe', readonly=True)
-    group_full_name = fields.Char(string='Groupe', readonly=True)
+    group_full_name = fields.Char(string='Catégorie / Groupe', readonly=True)
     category_id = fields.Many2one('ir.module.category', string='Catégorie', readonly=True)
     count = fields.Integer(string='Présent', readonly=True, default=1)
 
